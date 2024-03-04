@@ -1,0 +1,582 @@
+body {
+    margin: 0;
+}
+.header {
+    max-width: 100%;
+    height: 100%;
+}
+
+.offer {
+    width: 100%;
+    height: 1024px;
+    background-color: #fff;
+    display: flex;
+    position: relative;
+}
+
+.offer-lefr-part {
+    width: 60%;
+    height: 1024px;
+    background-color: #fff;
+}
+
+.offer-righr-part {
+    width: 40%;
+    height: 1024px;
+    background-color: #272727;
+}
+
+.ring-center {
+    position: absolute;
+    width: 322px;
+    height: 170px;
+    top: 41%;
+    left: 51%;
+    background-image: url("img/1473137\ 1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    width: 258px;
+    height: 53px;
+    position: absolute;
+    top: 60px;
+    left: 162px;
+    background-image: url("img/Group\ 1\ 1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.h1-offer {
+    font-size: 64px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    position: absolute;
+    left: 162px;
+    top: 439px;
+    color: #272727;
+}
+
+.h1-offer::after {
+    content: "";
+    display: block;
+    width: 160px;
+    height: 2px;
+    border-top: 1px solid #272727;
+    margin: 60px auto 0;
+}
+
+.after-h1-text {
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    color: #272727;
+    position: absolute;
+    top: 585px;
+    left: 33%;
+}
+
+.icons-top {
+    width: 50%;
+    height: 22px;
+    display: flex;
+    margin: 75px auto 0;
+}
+
+.nav-icons {
+    width: 180px;
+    height: 25px;
+    display: flex;
+}
+
+.nav-icon {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav-icon-favourites {
+    width: 22px;
+    height: 19px;
+    background-image: url("img/Vector.png");
+}
+
+.nav-icon-lk {
+    width: 13px;
+    height: 20px;
+    margin-left: 40px;
+    background-image: url("img/Vector\ \(1\).png");
+}
+
+.nav-icon-basket {
+    width: 15px;
+    height: 20px;
+    margin-left: 40px;
+    background-image: url("img/Rectangle.png");
+}
+
+.munu-burger {
+    width: 30px;
+    height: 19px;
+    margin-left: 120px;
+    background-image: url("img/Group\ 12.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.offer-ring-about {
+    width: 300px;
+    height: 200px;
+    text-align: right;
+    position: absolute;
+    bottom: 60px;
+    right: 130px;
+}
+
+.ring-name {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    color: #fff;
+}
+
+.ring-about {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    color: #C2C2C2;
+}
+
+.ring-price {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #EFC58B;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+
+.man-woman {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(auto-fill);
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.for-man-woman {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+}
+
+.for-man-woman::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #272727;
+    opacity: 0.4;
+    z-index: 1;
+}
+
+.for-man {
+    background-image: url("img/pexels-photo-1342609\ 1.png");
+}
+
+.for-woman {
+    background-image: url("img/2e80931ad9bbd57cb85a7c1abdbccb54\ 1.png");
+}
+
+.for-man-woman-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    z-index: 2;
+    font-weight: 300;
+    text-align: center;
+}
+
+.text-man-woman {
+    margin-bottom: 25px;
+    font-size: 22px;
+}
+
+.h2-man-woman {
+    font-size: 64px;
+    margin: 0 auto;
+}
+
+.h2-man-woman::after {
+    content: "";
+    display: block;
+    width: 130px;
+    height: 2px;
+    border-bottom: 1px solid #fff;
+    margin: 30px auto 0;
+
+}
+
+.adress {
+    width: 100%;
+    height: 590px;
+    margin-top: 30px;
+    background-color: #272727;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(auto-fill);
+}
+
+.adress-text-box {
+    margin: 100px auto;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.adress-text {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.adress-text-main {
+    font-size: 48px;
+    line-height: 20px;
+}
+
+.adress-text-second {
+    font-size: 22px;
+    line-height: 25px;
+}
+
+.adress-input-box {
+    width: 60%;
+    margin: 70px auto 0;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+.adress-input-box::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    border-bottom: 2px solid #fff;
+    position: absolute;
+    top: 25px;
+}
+
+.adress-input {
+    opacity: 0.4;
+    font-size: 18px;
+}
+
+.adress-line {
+    width: 28px;
+    height: 15px;
+    background-image: url("img/Line.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.adress-map {
+    width: 100%;
+    height: 100%;
+    background-image: url("img/image\ 3.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.jewelrys {
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+    display: flex;
+}
+
+.jewelry-left-right {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(auto-fill);
+    gap: 30px;
+    width: 25%;
+    height: 100%;
+}
+
+.jewelry-left-right-top {
+    background-color: #EDEDED;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.jewelry-left-right-bottom {
+    background-color: #EDEDED;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.jewelry-center {
+    width: 45%;
+    height: 885px;
+    background-image: url("img/397780CZ__1\ 1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    position: relative;
+}
+
+.jewelry-image {
+    width: 260px;
+    height: 180px;
+    margin: 40px auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.jewelry-left-top-image {
+    background-image: url("img/1521765\ 1.png");
+}
+
+.jewelry-left-bottom-image {
+    height: 167px;
+    background-image: url("img/589965\ 1.png");
+}
+
+.jewelry-right-top-image {
+    width: 300px;
+    height: 300px;
+    margin-top: -30px;
+    background-image: url("img/CHIMERA-925\ 1.png");
+}
+
+.jewelry-right-bottom-image {
+    width: 300px;
+    height: 300px;
+    margin-top: -20px;
+    background-image: url("img/CHIMERA\ 1.png");
+}
+
+.jewelry-text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
+
+.jewelry-name {
+    color: #272727;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.jewelry-about {
+    font-size: 18px;
+    color: #757575;
+}
+
+.jewelry-price {
+    color: #E2B67A;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.social-network {
+    width: 100%;
+    height: 890px;
+    margin-top: 30px;
+    background-color: #272727;
+}
+
+.social-header {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 48px;
+    color: #fff;
+    line-height: 25px;
+    padding-top: 80px;
+    padding-left: 170px;
+}
+
+.social-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%;
+    height: 50%;
+    margin: 50px auto 0;
+    gap: 30px;
+}
+
+.social-image {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.social-image1 {
+    background-image: url("img/2e80931ad9bbd57cb85a7c1abdbccb54\ 1.png");
+}
+
+.social-image2 {
+    background-image: url("img/4f5559c1b5960b5c77e2c86b888673f5\ 2.png");
+}
+
+.social-image3 {
+    background-image: url("img/397780CZ__1\ 1.png");
+}
+
+.social-icons {
+    width: 100px;
+    height: 40px;
+    padding-left: 170px;
+    display: flex;
+    margin-top: 50px;
+}
+
+.social-icon {
+    width: 35px;
+    height: 35px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.social-icon1 {
+    background-image: url("img/Facebook.png");
+    margin-right: 20px;
+}
+
+.social-icon2 {
+    background-image: url("img/Instagram.png");
+}
+
+.contacts {
+    width: 100%;
+    height: 640px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(auto-fill);
+}
+
+.contacts-image {
+    background-image: url("img/hype-ru-imgonline--PV4KKlein3PKSJg3Hj3vznm\ 1.png");
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contacts-text {
+    width: 60%;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000;
+    margin: 140px auto 0;
+}
+
+.contacts-text-phone {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #272727;
+}
+
+.contacts-phone {
+    font-size: 22px;
+    margin-top: 50px;
+    color: #959595;
+}
+
+.contacts-mailing {
+    margin-top: 120px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #272727;
+}
+
+.contacts-input-box {
+    width: 60%;
+    margin: 70px auto 0;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+.contacts-input-box::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    border-bottom: 2px solid #272727;
+    position: absolute;
+    top: 25px;
+}
+
+.contacts-input {
+    opacity: 0.4;
+    font-size: 18px;
+}
+
+.contacts-line {
+    width: 28px;
+    height: 15px;
+    background-image: url("img/Line\ \(1\).png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.footer {
+    width: 100%;
+    height: 150px;
+    background-color: #272727;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.logo-footer {
+    width: 258px;
+    height: 53px;
+    background-image: url("img/Group\ 1\ 7.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+@media (max-width: 690px) {
+    .offer {
+        display: block;
+    }
+}
